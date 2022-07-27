@@ -12,7 +12,7 @@ const pokedex = () => {
     const [pokemons, setPokemons] = useState([]);
     const [pokemonSearch, setPokemonSearch] = useState("");
     const [poketype, setpoketype] = useState([]);
-    
+
 
     const navigate = useNavigate();
 
@@ -22,10 +22,10 @@ const pokedex = () => {
 
 
         axios.get("https://pokeapi.co/api/v2/type/")
-        .then(res => setpoketype(res.data.results))
+            .then(res => setpoketype(res.data.results))
     }, []);
 
-    
+
 
     const search = e => {
         e.preventDefault();
@@ -33,11 +33,11 @@ const pokedex = () => {
     };
     const filterType = (e) => {
         axios.get(e).then((res) => setPokemons(res.data.pokemon));
-        
+
     };
 
     return (
-        
+
         <div>
             <img className='pokedes-title' src={img} alt="titulo" />
             <p className='Welcome'><b className='Username'>Welcome {username}</b>, here you can find your favorite pokemon  </p>
@@ -53,10 +53,10 @@ const pokedex = () => {
             </form>
 
 
-            <select className='select-pokedex' onChange={ (e) => filterType(e.target.value)}>
+            <select className='select-pokedex' onChange={(e) => filterType(e.target.value)}>
                 <option >Type Select</option>
                 {
-                    poketype.map( (type) => (
+                    poketype.map((type) => (
                         <option key={type.url} value={type.url}>
                             {type.name}
                         </option>
@@ -73,7 +73,7 @@ const pokedex = () => {
                 }
             </ul>
 
-            
+
         </div>
     );
 };
