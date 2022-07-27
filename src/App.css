@@ -1,0 +1,260 @@
+* {
+    text-align: center;
+}
+
+.Poketitle {
+    /* image 11 */
+
+    position: absolute;
+    width: 676px;
+    height: 121px;
+    left: 389px;
+    top: 25%;
+}
+
+.title-trainer {
+    position: absolute;
+    width: 662px;
+    height: 40px;
+    left: 397px;
+    top: 300px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FE1936;
+}
+
+.input-home {
+    position: absolute;
+    width: 655px;
+    height: 65px;
+    left: 389px;
+    top: 400px;
+    text-align: left;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.input-button {
+    position: absolute;
+    width: 209.21px;
+    height: 70px;
+    left: 841.79px;
+    top: 400px;
+    background: #D93F3F;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 107px;
+    left: 0px;
+    top: 85%;
+
+    background: #DD1A1A;
+}
+
+.footer-black {
+    position: absolute;
+    width: 100%;
+    height: 62px;
+    left: 0px;
+    top: 42%;
+    background: #0C0C0C;
+}
+
+/* COMPONENTE POKEDEX */
+
+.pokedes-title {
+    position: absolute;
+    width: 431px;
+    height: 76px;
+    left: 133px;
+    top: 47px;
+
+    background: url(image.png);
+}
+
+.Welcome {
+    position: absolute;
+    width: 882px;
+    height: 30px;
+    left: 143px;
+    top: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+}
+
+.Username {
+    color: red;
+}
+
+.input-pokedex {
+    position: absolute;
+    width: 666.02px;
+    height: 54.8px;
+    left: 140px;
+    top: 230px;
+    text-align: left;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.button-pokedex {
+    position: absolute;
+    width: 218px;
+    height: 60px;
+    left: 595.53px;
+    top: 230px;
+
+    background: #D93F3F;
+}
+
+.select-pokedex {
+    position: absolute;
+    width: 470.84px;
+    height: 60px;
+    left: 890.16px;
+    top: 230px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* COMPONENTE pokemon item */
+.card-item {
+    display: inline-block;
+    position: relative;
+    top: 350px;
+    margin: 2rem;
+
+}
+
+.card-body {
+    background-color: #ffffff;
+    padding: 0.5em;
+    border-radius: 5%;
+    margin-bottom: 5rem;
+    border-style: solid;
+    border-color: #f79c9c;
+}
+
+.card-title {
+    color: rgb(253, 253, 253);
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 95px;
+    height: 25px;
+    width: 120px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.fondo {
+    background-color: white;
+    position: relative;
+    top: 70px;
+    border-style: solid;
+    border-color: #f79c9c;
+}
+
+.pokemon-item {
+    height: 150px;
+    width: 200px;
+}
+
+/* COMPONENTE pokemon detail */
+
+.Font-pokemon{
+background-color: #fcfcfc;
+opacity: 90%;
+position:relative;
+top: 50px;
+border-radius: 10px;
+border-style: solid;
+border-color: #e43434;
+width: 40%;
+height: 300px;
+left: 0%;
+}
+.pokemon-detail{
+    width: 200px;
+}
+.title-detail{
+text-transform: uppercase;
+position: absolute;
+width: 300px;
+height: 43px;
+left: 60%;
+top: 130px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 53px;
+display: flex;
+align-items: center;
+color: #416460;
+}
+.id-detail{
+position: absolute;
+width: 78px;
+height: 34px;
+left: 55px;
+top: 175px;
+border: 1px solid #D3D3D3;
+border-radius: 2px;
+margin-bottom: 20px;
+font-size: 30px;
+color: #416460;
+}
+.abilities{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    background-color: #ffffff;
+    width: 180px;
+    opacity: 90%;
+    box-shadow: 1px 5px 5px #868686;
+    height: 130px;
+}
+.abilities_name{
+    color: #868686;
+    text-align: center;
+}
+.type{
+    position: absolute;
+    top: 300px;
+    left: 75%;
+    background-color: #ffffff;
+    width: 180px;
+    opacity: 90%;
+    box-shadow: 1px 5px 5px #868686;
+    height: 130px;
+}
+.date-pokemon{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.date-pokemon p{
+    background-color: rgb(219, 1, 1);
+    height: 30px;
+    width: 100px;
+    padding: 0.5em;
+    text-align: center;
+    position: relative;
+    top: 0;
+    color: white;
+    border-radius: 10px;
+}
