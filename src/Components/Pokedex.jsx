@@ -6,7 +6,7 @@ import Pokemon_item from './Pokemon_item';
 import img from "../img/image11.png"
 
 
-const pokedex = () => {
+const Pokedex = () => {
 
     const username = useSelector((state) => state.username);
     const [pokemons, setPokemons] = useState([]);
