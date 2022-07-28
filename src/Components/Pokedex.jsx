@@ -78,4 +78,4 @@ const Pokedex = () => {
     );
 };
 
-export default pokedex;
+export default Pokedex;
